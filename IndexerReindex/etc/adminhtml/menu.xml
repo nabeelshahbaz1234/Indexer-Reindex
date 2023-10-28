@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="RLTSquare_IndexerReindex::key1" title="Custom Indexer" module="RLTSquare_IndexerReindex" sortOrder="10"
+             resource="RLTSquare_IndexerReindex::key1"/>
+        <add id="RLTSquare_IndexerReindex::key2" title="Custom Indexer" module="RLTSquare_IndexerReindex"
+             parent="RLTSquare_IndexerReindex::key1" sortOrder="10" action="indexerreindex/indexer/index"
+             resource="RLTSquare_IndexerReindex::key2"/>
+    </menu>
+</config>

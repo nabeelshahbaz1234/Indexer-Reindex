@@ -1,0 +1,14 @@
+<?php
+/**
+ * @var $block Magento\Framework\View\Element\Template
+ */
+?>
+<h2>Press Button to Indexer:Reindex</h2>
+<div class="admin__field-control">
+    <button title="<?= $block->escapeHtml(__('Run Indexer')) ?>"
+            onclick="location.href='<?= $block->getUrl('indexerreindex/indexer/indexerreindex') ?>'" type="button"
+            class="action-default scalable save primary ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"
+            data-ui-id="widget-button-0">
+        <span><?= $block->escapeHtml(__('Run Indexer')) ?></span>
+    </button>
+</div>
